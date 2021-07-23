@@ -1,0 +1,8 @@
+name: SlimeChunkFinder
+version: 1.0
+api-version: 1.16
+main: com.slimefinder.main.SlimeFinder
+author: Unfairbody96
+commands:
+  slime:
+    description: base main command

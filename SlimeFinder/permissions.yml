@@ -1,0 +1,8 @@
+#version ( DONT CHANGE ) 
+version: 1
+
+Permissions:
+ default: "bukkit.command.help"
+ near: "slime.find.near"
+ admin: "slime.admin"
+ timer_bypass: "slime.find.bypass"

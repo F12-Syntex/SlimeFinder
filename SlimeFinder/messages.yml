@@ -1,0 +1,16 @@
+#version ( DONT CHANGE ) 
+version: 2
+
+Messages:
+ PREFIX: "&7[&aSlime&7]"
+ ERROR: "%prefix% &cSomething went wrong!"
+ INVALID_SYNTEX: "%prefix% &cInvalid Syntex!"
+ INAVLID_PERMISSION: "%prefix% &cyou dont have permission for that!"
+ INAVLID_ENTITY: "%prefix% &cPlayers only!"
+ 
+ 
+Detection:
+ SELF_CHUNK_FOUND: "%prefix% &aYou are standing on a slime chunk with %slimes% slime(s)"
+ SLEF_CHUNK_EMPTY: "%prefix% &cYou are not standing on a slime chunk!"
+ NEAR_CHUNK_FOUND: "%prefix% &aThe closest slime chunk is located at &6X&7: &3%chunkx% &6Z&7: &3%chunkz% &awith %slimes% slime(s)!"
+ NEAR_CHUNK_EMPTY: "%prefix% &cApparently we found 0 slimes chunks..."
